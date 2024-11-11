@@ -18,6 +18,9 @@ struct SpinpickApp: App {
                 Text("Hello, world!")
             }
             .padding()
+            .onAppear {
+                print(Configuration.current.buildConfiguration)
+            }
         }
     }
 }
