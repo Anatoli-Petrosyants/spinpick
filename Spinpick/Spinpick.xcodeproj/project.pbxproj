@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A9EB48062CE21E73005A7056 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = A9EB48052CE21E73005A7056 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A9EB47E72CE21B76005A7056 /* Spinpick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spinpick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9EB48062CE21E73005A7056 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Spinpick;
 			packageProductDependencies = (
+				A9EB48052CE21E73005A7056 /* ComposableArchitecture */,
 			);
 			productName = Spinpick;
 			productReference = A9EB47E72CE21B76005A7056 /* Spinpick.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = A9EB47DE2CE21B76005A7056;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A9EB48042CE21E73005A7056 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A9EB47E82CE21B76005A7056 /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9EB48042CE21E73005A7056 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9EB48052CE21E73005A7056 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9EB48042CE21E73005A7056 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A9EB47DF2CE21B76005A7056 /* Project object */;
 }
