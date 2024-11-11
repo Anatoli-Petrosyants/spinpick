@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A9EB47E92CE21B76005A7056 /* Spinpick */ = {
+		A9EB47E92CE21B76005A7056 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Spinpick;
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		A9EB47DE2CE21B76005A7056 = {
 			isa = PBXGroup;
 			children = (
-				A9EB47E92CE21B76005A7056 /* Spinpick */,
+				A9EB47E92CE21B76005A7056 /* App */,
 				A9EB47E82CE21B76005A7056 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A9EB47E92CE21B76005A7056 /* Spinpick */,
+				A9EB47E92CE21B76005A7056 /* App */,
 			);
 			name = Spinpick;
 			packageProductDependencies = (
@@ -251,7 +251,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Spinpick/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Resources\"";
 				DEVELOPMENT_TEAM = HMUNVFLZV8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +280,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Spinpick/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Resources\"";
 				DEVELOPMENT_TEAM = HMUNVFLZV8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
